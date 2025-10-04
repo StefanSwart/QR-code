@@ -19,9 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    /* width: 5rem; */
     border-radius: 1rem;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -56,6 +54,5 @@ body {
 .outfit-font {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style:normal;
 }
