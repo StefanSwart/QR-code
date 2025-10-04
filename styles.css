@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+.qr-image {
+    width: 90%;
+    padding:1rem;
+    /* margin: 1rem; */
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    /* width: 5rem; */
+    border-radius: 1rem;
+}
+
+.attribution {
+    display: float;
+    position: absolute;
+    bottom: 1rem;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.main-heading {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color :hsl(218, 44%, 22%);
+    font-size: 17px;
+}
+
+.main-paragraph {
+    font-size: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+}
